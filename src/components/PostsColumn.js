@@ -1,8 +1,12 @@
 import React from "react";
+import Post from "./Post";
 
 function PostsColumn() {
   return (
-    <h2>Posts</h2>
+    <React.Fragment>
+      <h2>Posts</h2>
+      <Post />
+    </React.Fragment>
   );
 }
 
