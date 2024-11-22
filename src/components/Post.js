@@ -1,12 +1,10 @@
 import React from "react";
 
-function Post() {
-  const userName = "Neeex";
-  const content = "react is very modular";
+function Post(props) {
   return (
     <React.Fragment>
-      <h4>{userName}</h4>
-      <p>{content}</p>
+      <h4>{props.userName}</h4>
+      <p>{props.content}</p>
       <hr />
     </React.Fragment>
   );
