@@ -3,9 +3,8 @@ import React from "react";
 function Post(props) {
   return (
     <React.Fragment>
-      <h4>{props.userName}</h4>
+      <p className="mb-0"><strong>{props.userName}</strong></p>
       <p>{props.content}</p>
-      <hr />
     </React.Fragment>
   );
 }

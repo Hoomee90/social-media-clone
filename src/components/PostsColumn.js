@@ -1,15 +1,20 @@
 import React from "react";
 import Post from "./Post";
+import Card from 'react-bootstrap/Card';
+import ListGroup from 'react-bootstrap/ListGroup';
 
 function PostsColumn() {
   return (
     <React.Fragment>
-      <hr />
-      {postList.map((post, index) =>
-        <Post userName={post.userName}
-          content={post.content}
-          key={index} />
-      )}
+      <Card>
+        <ListGroup variant="flush">
+          {postList.map((post, index) =>
+            <ListGroup.Item key={index}><Post userName={post.userName}
+              content={post.content}
+              key={index} /></ListGroup.Item>
+          )}
+        </ListGroup>
+      </Card>
     </React.Fragment>
   );
 }
