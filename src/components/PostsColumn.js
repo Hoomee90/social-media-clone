@@ -2,11 +2,13 @@ import React from "react";
 import Post from "./Post";
 import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
+import PostBar from "./PostBar";
 
 function PostsColumn() {
   return (
     <React.Fragment>
       <Card>
+        <Card.Header bg="primary"><PostBar /></Card.Header>
         <ListGroup variant="flush">
           {postList.map((post, index) =>
             <ListGroup.Item key={index}><Post userName={post.userName}
