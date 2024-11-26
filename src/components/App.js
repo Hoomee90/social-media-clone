@@ -1,16 +1,17 @@
 import React from "react";
-import PostsColumn from "./PostsColumn";
-import AccountsColumn from "./AccountsColumn";
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
+import PostsColumn from "./PostsColumn";
+import AccountsColumn from "./AccountsColumn";
+import ProfileColumn from "./ProfileColumn";
 
 function App() {
   return (
     <React.Fragment>
       <Container fluid>
         <Row>
-          <Col></Col>
+          <Col><ProfileColumn /></Col>
           <Col xs={5}><PostsColumn /></Col>
           <Col><AccountsColumn /></Col>
         </Row>
