@@ -7,7 +7,7 @@ function AccountsColumn() {
   return (
     <React.Fragment>
       <Card body>
-        <Card.Title>Lorem ipsum</Card.Title>
+        <Card.Title className="mb-4">Lorem ipsum</Card.Title>
         <Stack gap={3}>
           {accountList.map((post, index) =>
             <Account userName={post.userName}
