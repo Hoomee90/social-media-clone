@@ -11,7 +11,7 @@ function App() {
       <Container fluid>
         <Row>
           <Col></Col>
-          <Col><PostsColumn /></Col>
+          <Col xs={5}><PostsColumn /></Col>
           <Col><AccountsColumn /></Col>
         </Row>
       </Container>
