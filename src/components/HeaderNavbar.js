@@ -21,7 +21,7 @@ function HeaderNavbar() {
               <Button href="#" variant="outline-secondary">Messages</Button>
             </ButtonGroup>
           </Navbar.Collapse>
-          <Form inline>
+          <Form inline="true">
             <Row>
               <Col xs="auto">
                 <Form.Control
@@ -37,7 +37,7 @@ function HeaderNavbar() {
           </Form>
         </Container>
       </Navbar>
-    </React.Fragment>
+    </React.Fragment >
   );
 }
 

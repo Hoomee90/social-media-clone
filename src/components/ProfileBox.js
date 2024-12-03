@@ -1,5 +1,5 @@
 import React from "react";
-import { Stack } from "react-bootstrap";
+import Stack from "react-bootstrap/Stack";
 import Card from 'react-bootstrap/Card';
 
 function ProfileBox() {
@@ -10,7 +10,7 @@ function ProfileBox() {
         <Card border="light" className="z-1 position-absolute profile-picture" style={{ backgroundColor: "#3498DB" }}></Card>
         <Card.Title className="pt-1 me-3 text-end" >Kellie A. Corrigan</Card.Title>
         <Card.Body>
-          <Stack direction="horizontal" gap={4}>
+          <Stack direction="horizontal" gap={4} className="m-auto">
             <a href="#">POSTS</a>
             <a href="#">FOLLOWING</a>
             <a href="#">FOLOLOWERS</a>

@@ -12,7 +12,7 @@ function Account(props) {
 
         <Col className="d-flex align-items-start flex-column">
           <p className="mb-0"><strong>{props.userName}</strong></p>
-          <Button size="sm" className="mt-auto w-75">Button</Button>
+          <Button size="sm" className="mt-auto w-50">Button</Button>
         </Col>
       </Row>
     </React.Fragment>
