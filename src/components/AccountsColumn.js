@@ -22,15 +22,15 @@ function AccountsColumn() {
 
 const accountList = [
   {
-    userName: "User 1",
+    userName: "Donec eu orci et",
     profileColor: { backgroundColor: "#FEE0C2" }
   },
   {
-    userName: "User 2",
+    userName: "Orci et donec eu",
     profileColor: { backgroundColor: "#C6DF9C" }
   },
   {
-    userName: "User 3",
+    userName: "Et donec orci eu",
     profileColor: { backgroundColor: "#7BCDC9" }
   },
 ]
