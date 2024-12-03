@@ -1,4 +1,4 @@
-.card,
+.card:not(.profile-picture),
 .btn,
 .badge {
   border-radius: 0;
@@ -6,4 +6,10 @@
 
 .badge {
   background-color: #73070A;
+}
+
+.profile-picture {
+  padding: 2em;
+  top: 45%;
+  left: 10%;
 }
