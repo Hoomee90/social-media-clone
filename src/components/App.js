@@ -5,11 +5,13 @@ import Container from 'react-bootstrap/Container';
 import PostsColumn from "./PostsColumn";
 import AccountsColumn from "./AccountsColumn";
 import ProfileColumn from "./ProfileColumn";
+import HeaderNavbar from "./HeaderNavbar";
 
 function App() {
   return (
     <React.Fragment>
       <Container fluid>
+        <Row className="mb-3"><HeaderNavbar /></Row>
         <Row>
           <Col><ProfileColumn /></Col>
           <Col xs={5}><PostsColumn /></Col>
