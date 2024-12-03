@@ -10,10 +10,16 @@
 
 .profile-picture {
   padding: 2em;
-  top: 45%;
+  top: 30%;
   left: 10%;
 }
 
 .account {
   padding: 2em;
+}
+
+a {
+  font-size: 13px;
+  color: inherit;
+  text-decoration: none;
 }
