@@ -1,0 +1,9 @@
+.card,
+.btn,
+.badge {
+  border-radius: 0;
+}
+
+.badge {
+  background-color: #73070A;
+}

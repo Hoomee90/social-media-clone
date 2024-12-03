@@ -7,7 +7,7 @@ function PostBar() {
   return (
     <React.Fragment>
       <Stack direction="horizontal" gap={3}>
-        <Badge bg="danger" className="p-3 ms-3"> </Badge>
+        <Badge bg="none" className="p-3 ms-3"> </Badge>
         <Form.Control
           placeholder="What's happening?"
         />
