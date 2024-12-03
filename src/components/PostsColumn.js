@@ -8,7 +8,7 @@ function PostsColumn() {
   return (
     <React.Fragment>
       <Card>
-        <Card.Header bg="primary"><PostBar /></Card.Header>
+        <PostBar />
         <ListGroup variant="flush">
           {postList.map((post, index) =>
             <ListGroup.Item key={index}><Post userName={post.userName}
@@ -23,27 +23,27 @@ function PostsColumn() {
 
 const postList = [
   {
-    userName: "User 1",
+    userName: "Lorem ipsum",
     content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     profileColor: { backgroundColor: "#FEE0C2" }
   },
   {
-    userName: "User 2",
+    userName: "Lorem ipsum",
     content: "Sed ac odio a lacus feugiat condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
     profileColor: { backgroundColor: "#FEE0C2" }
   },
   {
-    userName: "User 3",
+    userName: "Lorem ipsum",
     content: "Nullam ultrices eros vel pulvinar vehicula. Sed vitae laoreet diam.",
     profileColor: { backgroundColor: "#1ABC9C" }
   },
   {
-    userName: "User 4",
+    userName: "Lorem ipsum",
     content: "Maecenas condimentum, eros sed vehicula ultrices, ante dolor mollis dui, id tempor ipsum urna vitae enim. Fusce lobortis dignissim diam, eu iaculis nulla venenatis volutpat.",
     profileColor: { backgroundColor: "#9C9387" }
   },
   {
-    userName: "User 5",
+    userName: "Lorem ipsum",
     content: "Vestibulum eget lorem nunc.",
     profileColor: { backgroundColor: "#FEE0C2" }
   }

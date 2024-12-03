@@ -31,7 +31,7 @@ function HeaderNavbar() {
                 />
               </Col>
               <Col xs="auto">
-                <Button variant="outline-primary" className="rounded-5 px-3">Submit</Button>
+                <Button variant="outline-primary" className="rounded-5 px-3">Post</Button>
               </Col>
             </Row>
           </Form>
